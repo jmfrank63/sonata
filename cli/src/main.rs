@@ -1,5 +1,5 @@
 use clap::Parser;
-use log::{debug, error, info};
+use log::{info};
 use std::path::PathBuf;
 
 #[derive(Parser)]
