@@ -73,7 +73,7 @@ typedef struct SynthesisParams {
   uint8_t nonblocking;
 } SynthesisParams;
 
-void libsonataFreeString(int8_t *string_ptr);
+void libsonataFreeString(uint8_t *string_ptr);
 
 void libsonataFreePiperSynthConfig(struct PiperSynthConfig *synth_config);
 

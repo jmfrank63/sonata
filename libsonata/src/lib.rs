@@ -187,7 +187,7 @@ impl PiperSynthConfig {
 /// Pointer must be non-null and well alighned
 #[no_mangle]
 #[allow(non_snake_case)]
-pub unsafe extern "C" fn libsonataFreeString(string_ptr: *mut i8) {
+pub unsafe extern "C" fn libsonataFreeString(string_ptr: *mut u8) {
     _internal_libsonataFreeString(string_ptr)
 }
 
